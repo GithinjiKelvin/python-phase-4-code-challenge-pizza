@@ -10,6 +10,7 @@ metadata = MetaData(
     }
 )
 
+# initial
 db = SQLAlchemy(metadata=metadata)
 
 
